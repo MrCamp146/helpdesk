@@ -1,0 +1,110 @@
+/*-- Corp page --*/
+body {
+	background-repeat: repeat;
+	background-size: auto auto;
+	background-image:url(../img/theme/bg4.png);
+	padding-top: 50px;
+	padding-bottom:50px;
+	
+
+
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: auto;
+  background-color: #f5f5f5;
+}
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+/* -- Custom Header -- */
+.bs-docs-header {
+    box-sizing: border-box;
+    color: rgb(129, 181, 221);
+    height: 175px;
+    position: relative;
+    text-align: left;
+    text-shadow: rgba(0, 0, 0, 0.0980392) 0px 1px 0px;
+    perspective-origin: 950.5px 128px;
+    transform-origin: 950.5px 128px;
+    background-color: #C7EAEB;
+    border: 0px none rgb(205, 191, 227);
+    font: normal normal normal normal 24px/34.2857170104981px 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
+    margin: 0px 0px 4px;
+    outline: rgb(205, 191, 227) none 0px;
+    padding: 0px 15px;
+}
+.second-header {
+    box-sizing: border-box;
+    height: 10px;
+    position: relative;
+    perspective-origin: 950.5px 128px;
+    transform-origin: 950.5px 128px;
+    background-color: #7AC5CC;
+    border: 0px none rgb(205, 191, 227);
+    margin: 0px 0px 6px;
+    outline: rgb(205, 191, 227) none 0px;
+    padding: 0px 6px;
+}
+.bs-docs-header .header{
+    background: url(../img/helpdesk.png) no-repeat left;
+    box-sizing: border-box;
+    margin-left:0px;
+    height: 141px;
+}
+.bs-docs-header h1 {
+    color: #253939;
+    height: 45px;
+    text-align: left;
+	text-shadow: 1px 1px 1px rgba(150, 150, 150, 0.64);
+    border: 0px none rgb(255, 255, 255);
+    font-size: normal normal 500 normal 60px/60px 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-variant: small-caps;
+    outline: rgb(255, 255, 255) none 0px;
+    padding-left: 140px;
+    padding-top: 25px;
+}
+
+.bs-docs-header p{
+    color: #253939;
+    font-weight: 200;
+	font-size: 18px;
+	font-stretch: ultra-expanded;
+	text-shadow: 1px 1px 1px rgba(150, 150, 150, 0.24);
+	font-variant: small-caps;
+    padding-left :140px;
+}
