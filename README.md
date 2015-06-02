@@ -13,6 +13,21 @@ Assistance, Support et Gestion de ticket
 - [X] Affichage d'un article,
 - [X] Partie commune + Partie visiteur,
 
+# Partie Yann :
+- ticket.php;
+- tickets.php;
+- index.php (partie commune);
+- profils.php (edition);
+- faq.php;
+- register.php;
+- login.php;
+- logout.php;
+- adm_*.php;
+
+# Partie Florent :
+- Header.php;
+- index.php (visiteur);
+- profils.php (affichage des données).
 # How to install
 
 - [ ] Tout d’abord installer le script sur votre serveur.
