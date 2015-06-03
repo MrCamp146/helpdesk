@@ -88,6 +88,7 @@ if (!isset($_COOKIE['id'])){
 				<textarea class="form-control" row="2" name="message"></textarea>
 				<?php
 					if (isset($_POST['message'])){
+						$db = BDD();
 						$addmessage = $db -> prepare('INSERT INTO message (contenu, idUser, idTicket) VALUES (:contenu, :idUser, :idTicket)');
 						$addmessage -> execute(array('contenu' => $_POST['message'], 'idUser' => $_COOKIE['id'], 'idTicket' => $_GET['ticket'] ));
 						header('Refresh: 1 ;url=adm_tickets.php?ticket='.$_GET['ticket'].'');
@@ -107,7 +108,7 @@ if (!isset($_COOKIE['id'])){
 	</div>
 </div>
 <?php if (isset($_GET['edit'])){
-
+$db = BDD();
 	$info_up = $db -> prepare('SELECT * FROM message WHERE id = :id');
 	$info_up -> execute(array('id' => $_GET['edit']));
 	$info_up_rep = $info_up->fetch();
