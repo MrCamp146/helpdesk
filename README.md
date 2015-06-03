@@ -28,6 +28,7 @@ Assistance, Support et Gestion de ticket
 - Header.php;
 - index.php (visiteur);
 - profils.php (affichage des données).
+
 # How to install
 
 - [ ] Tout d’abord installer le script sur votre serveur.
