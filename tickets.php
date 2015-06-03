@@ -77,7 +77,7 @@ if (!isset($_COOKIE['id'])){
 		<div class="modal fade" id="message<?php echo $_GET['ticket'];?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
-	<form method="POST" action="adm_tickets.php?ticket=<?php echo $_GET['ticket'];?>">
+	<form method="POST" action="tickets.php?ticket=<?php echo $_GET['ticket'];?>">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4 class="modal-title" id="myModalLabel">Ajouter un Message au ticket : <?php echo $reponse_ticket_full['titre'];?></h4>
